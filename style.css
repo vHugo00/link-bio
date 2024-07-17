@@ -275,7 +275,6 @@ a {
 .img-tread {
     width: 100%;
     height: 100px;
-    background-image: url(/img/tread-skateboard.jpg);
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -283,7 +282,9 @@ a {
 }
 
 .img-tread img {
-    width: 50%;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
 }
 
 .redes-sociais {
@@ -461,4 +462,58 @@ a {
 .meu-site img,
 .freelancer img {
     animation: pulse 3s infinite ease-in-out;
+}
+
+.skills-icons i img {
+    transition: filter 0.3s ease;
+}
+
+/* JavaScript Icon */
+.js-icon:hover img {
+    filter: brightness(0) saturate(100%) invert(62%) sepia(92%) saturate(1516%) hue-rotate(7deg) brightness(103%) contrast(105%);
+}
+
+/* Node.js Icon */
+.nodejs-icon:hover img {
+    filter: brightness(0) saturate(100%) invert(51%) sepia(55%) saturate(386%) hue-rotate(75deg) brightness(88%) contrast(92%);
+}
+
+/* Next.js Icon */
+.nextjs-icon:hover img {
+    filter: brightness(0) saturate(100%) invert(0%) sepia(0%) saturate(1%) hue-rotate(269deg) brightness(98%) contrast(100%);
+}
+
+/* React Icon */
+.react-icon:hover img {
+    filter: brightness(0) saturate(100%) invert(60%) sepia(21%) saturate(3681%) hue-rotate(158deg) brightness(96%) contrast(95%);
+}
+
+/* Laravel Icon */
+.laravel-icon:hover img {
+    filter: brightness(0) saturate(100%) invert(20%) sepia(100%) saturate(5038%) hue-rotate(358deg) brightness(100%) contrast(105%);
+}
+
+/* Git Icon */
+.git-icon:hover img {
+    filter: brightness(0) saturate(100%) invert(40%) sepia(79%) saturate(2533%) hue-rotate(343deg) brightness(103%) contrast(101%);
+}
+
+/* Bootstrap Icon */
+.bootstrap-icon:hover img {
+    filter: brightness(0) saturate(100%) invert(23%) sepia(47%) saturate(4065%) hue-rotate(250deg) brightness(97%) contrast(94%);
+}
+
+/* Tailwind CSS Icon */
+.tailwind-icon:hover img {
+    filter: brightness(0) saturate(100%) invert(59%) sepia(30%) saturate(1432%) hue-rotate(153deg) brightness(101%) contrast(92%);
+}
+
+/* Figma Icon */
+.figma-icon:hover img {
+    filter: brightness(0) saturate(100%) invert(61%) sepia(20%) saturate(4990%) hue-rotate(184deg) brightness(93%) contrast(92%);
+}
+
+/* WordPress Icon */
+.wordpress-icon:hover img {
+    filter: brightness(0) saturate(100%) invert(29%) sepia(90%) saturate(2472%) hue-rotate(180deg) brightness(98%) contrast(101%);
 }
