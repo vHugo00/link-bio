@@ -1,0 +1,3 @@
+[submodule "link-bio"]
+	path = link-bio
+	url = https://github.com/vHugo00/link-bio.git
